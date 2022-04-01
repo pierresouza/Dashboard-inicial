@@ -1,0 +1,823 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-image: url("../assets/img/BG.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#first-container {
+  height: 100vh;
+  width: 20vw;
+  color: white;
+}
+
+#first-container #item1 {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#first-container #item1 p {
+  height: 5vh;
+  width: 12vw;
+  cursor: pointer;
+}
+
+#first-container #item2 {
+  height: 55vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#first-container #item2 #box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 50vh;
+}
+
+#first-container #item2 #box #dash-static {
+  background: linear-gradient(101.05deg, #1f2fbe -5.36%, #440495 29.46%, #180495 56.03%, #b102cd 81.92%);
+  border-radius: 16px;
+  height: 5vh;
+  width: 15vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+}
+
+#first-container #item2 #box #dash-static p {
+  width: 12vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#first-container #item2 #box #dash-static p img {
+  margin-right: 10px;
+}
+
+#first-container #item2 #box .menu {
+  border-radius: 12px;
+  height: 5vh;
+  width: 15vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#first-container #item2 #box .menu p {
+  width: 12vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#first-container #item2 #box .menu p img {
+  margin-right: 10px;
+}
+
+#first-container #item2 #box .menu:hover {
+  background: linear-gradient(101.05deg, #1f2fbe -5.36%, #440495 29.46%, #180495 56.03%, #b102cd 81.92%);
+  border-radius: 16px;
+  color: white;
+}
+
+#first-container #item3 {
+  color: white;
+  height: 24vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#first-container #item3 p {
+  text-decoration: none;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 3vh;
+  width: 12vw;
+  cursor: pointer;
+}
+
+#first-container #item3 p img {
+  margin-right: 10px;
+}
+
+#second-container {
+  height: 100vh;
+  width: 50vw;
+}
+
+#second-container #box1 {
+  height: 13vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#second-container #box1 #header1 {
+  height: 10;
+  width: 40vw;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+}
+
+#second-container #box1 #header2 {
+  height: 10;
+  width: 40vw;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#second-container #box1 #header2 input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px 80px 12px 16px;
+  background: rgba(28, 31, 37, 0.6);
+  border-radius: 16px;
+}
+
+#second-container #box1 #header2 .icon {
+  padding-left: 25px;
+  background: url("../assets/icon/24/search.svg") no-repeat left;
+  background-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+#second-container #box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 7vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  background: #1c1c1c;
+  opacity: 0.6;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 16px 16px 0px 0px;
+}
+
+#second-container #box2 #table {
+  height: 10vh;
+  width: 20vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#second-container #box2 #table #assets {
+  height: 40px;
+  width: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#second-container #box2 #table #assets img {
+  height: 45px;
+  margin-right: 15px;
+}
+
+#second-container #box2 #table #assets p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#second-container #box2 #table #assets #style-asset {
+  height: 50px;
+  font-size: 20px;
+}
+
+#second-container #box2 #table #Deposits {
+  height: 50px;
+  width: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#second-container #box2 #table #Deposits img {
+  height: 45px;
+  margin-right: 15px;
+}
+
+#second-container #box2 #table #Deposits p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#second-container #box2 #table #Deposits #style-asset {
+  height: 50px;
+  font-size: 20px;
+}
+
+#second-container #box2 #table #APY {
+  height: 50px;
+  width: 10vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#second-container #box2 #table #APY img {
+  height: 45px;
+  margin-right: 15px;
+}
+
+#second-container #box2 #table #APY p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#second-container #box2 #table #APY #style-asset {
+  height: 50px;
+  font-size: 20px;
+}
+
+#second-container #graph {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #1c1c1c;
+  opacity: 0.6;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 0px 0px 16px 16px;
+}
+
+#second-container #graph #inner-graph {
+  width: 100%;
+  height: 45vh;
+}
+
+#second-container #graph #inner-graph img {
+  width: 100%;
+  height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#second-container #box3 {
+  background: #1c1c1c;
+  opacity: 0.6;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 16px;
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 35px;
+  padding-top: 25px;
+  color: white;
+}
+
+#second-container #box3 #footer {
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+}
+
+#second-container #box3 #balance {
+  height: 30vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#second-container #box3 #balance #trade {
+  padding-left: 22px;
+}
+
+#second-container #box3 #balance .form {
+  padding-left: 15px;
+}
+
+#second-container #box3 #balance p {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 85%;
+  padding-left: 25px;
+}
+
+#second-container #box3 #balance p img {
+  margin-right: 20px;
+  height: 30px;
+}
+
+#second-container #box3 #balance td button {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  color: white;
+  width: 72px;
+  height: 27px;
+  cursor: pointer;
+  border: none;
+  margin-left: 10px;
+}
+
+#second-container #box3 #balance #name {
+  padding-left: 25px;
+}
+
+#second-container #box3 #balance .balance-data {
+  height: 5vh;
+  width: 20vw;
+  padding-left: 15px;
+}
+
+#second-container #box3 #balance td {
+  font-size: 18px;
+  height: 60px;
+}
+
+#third-container {
+  height: 100vh;
+  width: 25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#third-container #square1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 8vh;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+#third-container #square1 #perfil {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 25px;
+}
+
+#third-container #square1 #perfil img {
+  margin-left: 25px;
+}
+
+#third-container #square2 {
+  height: 58%;
+  background: #1c1c1c;
+  opacity: 0.6;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#third-container #square2 .list {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 8vh;
+  width: 20vw;
+}
+
+#third-container #square2 .list .coin {
+  height: 5vh;
+  width: 15vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4vh;
+}
+
+#third-container #square2 .list .coin div {
+  padding-left: 125px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#third-container #square2 .list .coin i {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  text-transform: capitalize;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#third-container #square2 .list #bar-progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15vw;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#third-container .progress {
+  width: 10vw;
+  height: 8px;
+  background: #353535;
+  border-radius: 3px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#third-container .progress .progress-bar1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(268.5deg, #fb03f5 -11.69%, #aa9cff 112.48%);
+  background-size: 300% 100%;
+}
+
+#third-container .progress .progress-bar2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  border-radius: 3px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5cff9c), to(#00ffa3));
+  background: linear-gradient(180deg, #5cff9c 0%, #00ffa3 100%);
+  background-size: 300% 100%;
+}
+
+#third-container .progress .progress-bar3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(268.5deg, #fb035c -11.69%, #fa9fa5 112.48%);
+  background-size: 300% 100%;
+}
+
+#third-container .progress .progress-bar4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(268.5deg, #fb03f5 -11.69%, #aa9cff 112.48%);
+  background-size: 300% 100%;
+}
+
+#third-container .progress .progress-bar5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  border-radius: 3px;
+  background: linear-gradient(268.5deg, #50af95 -11.69%, #00ffb9 112.48%);
+  background-size: 300% 100%;
+}
+
+#third-container .progress img {
+  margin-right: 25px;
+}
+
+#third-container #box-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20vw;
+}
+
+#third-container #box-button #button-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 16vw;
+  height: 5vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #2b2b2b;
+  border-radius: 12px;
+  color: white;
+}
+
+#square3 {
+  height: 30vh;
+  background: #2c2c2c;
+  opacity: 0.6;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 16px;
+  margin-top: 50px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#square3 #final-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5vh;
+}
+
+#square3 #final-button p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#square3 #space {
+  height: 11vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#square3 #space img {
+  height: 100%;
+  width: 100%;
+}
+
+#square3 #text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 8vh;
+}
+
+#square3 #text .teste {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5vh;
+  width: 10vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#square3 p {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  color: white;
+  width: 16vw;
+  height: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  border: none;
+}
+/*# sourceMappingURL=main.css.map */
