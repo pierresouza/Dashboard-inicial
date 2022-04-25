@@ -371,14 +371,13 @@ body {
     }
 
     #square2 {
-        height: 58%;
+        height: 28vw;
         background: #1c1c1c;
         opacity: 0.6;
         backdrop-filter: blur(20px);
         border-radius: 16px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
 
         .list {
@@ -388,6 +387,7 @@ body {
             flex-direction: column;
             height: 8vh;
             width: 20vw;
+            padding: 32px 0px 16px 0px;
 
             .coin {
                 height: 5vh;
@@ -477,6 +477,7 @@ body {
         display: flex;
         justify-content: center;
         width: 20vw;
+        padding-top: 40px;
 
         #button-list {
             display: flex;
@@ -492,7 +493,7 @@ body {
 }
 
 #square3 {
-    height: 30vh;
+    height: 32vh;
     background: #2c2c2c;
     opacity: 0.6;
     backdrop-filter: blur(20px);
@@ -502,7 +503,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    // margin-bottom: 25px;
     #final-button {
         display: flex;
         justify-content: center;

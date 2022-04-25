@@ -526,7 +526,7 @@ body {
 }
 
 #third-container #square2 {
-  height: 58%;
+  height: 28vw;
   background: #1c1c1c;
   opacity: 0.6;
   -webkit-backdrop-filter: blur(20px);
@@ -539,8 +539,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -560,6 +558,7 @@ body {
           flex-direction: column;
   height: 8vh;
   width: 20vw;
+  padding: 32px 0px 16px 0px;
 }
 
 #third-container #square2 .list .coin {
@@ -693,6 +692,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 20vw;
+  padding-top: 40px;
 }
 
 #third-container #box-button #button-list {
@@ -713,7 +713,7 @@ body {
 }
 
 #square3 {
-  height: 30vh;
+  height: 32vh;
   background: #2c2c2c;
   opacity: 0.6;
   -webkit-backdrop-filter: blur(20px);
