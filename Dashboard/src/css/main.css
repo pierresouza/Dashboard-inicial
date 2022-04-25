@@ -238,6 +238,10 @@ body {
   cursor: pointer;
 }
 
+#second-container #box1 #header2 img {
+  cursor: pointer;
+}
+
 #second-container #box2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -730,6 +734,7 @@ body {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-bottom: 16px;
 }
 
 #square3 #final-button {

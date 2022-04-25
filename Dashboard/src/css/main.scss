@@ -158,6 +158,10 @@ body {
                 color: white;
                 cursor: pointer;
             }
+
+            img {
+                cursor: pointer;
+            }
         }
     }
 
@@ -503,6 +507,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-bottom: 16px;
     #final-button {
         display: flex;
         justify-content: center;
